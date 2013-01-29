@@ -763,7 +763,7 @@ config TOUCHSCREEN_FT5X_TS
 config TOUCHSCREEN_FT5X_TS_711
        tristate  "ft5x touchscreen driver"
        help
-         byd0x7ets touchscreen driver  adapted on mediacom 711i
+         byd0x7ets touchscreen driver
 
 config  TOUCHSCREEN_ZT8031
        tristate  "ZT8031 touchscreen driver"
@@ -774,4 +774,9 @@ config  TOUCHSCREEN_COASIA
        tristate  "COASIA touchscreen driver"
        help
           COASIA touchscreen driver
+
+config  TOUCHSCREEN_DMARD06
+        tristate "DMARD06 touchscreen driver"
+        help
+          DMARD06 touchscreen driver
 endif
